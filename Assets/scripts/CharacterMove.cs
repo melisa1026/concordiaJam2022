@@ -9,11 +9,12 @@ public class CharacterMove : MonoBehaviour
     private float position;
     //max and min positions
     public float max, min;
+    public float startPositionX;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        position = transform.position.x;
     }
 
     // Update is called once per frame
