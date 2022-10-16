@@ -14,7 +14,7 @@ public class sceneControl : MonoBehaviour
     // phase 5: in future, play game, go to mona lisa room. go back to present from elevator room
     // phase 6: present. play game, go to door, go through door
     // phase 7: punch teacher in the face
-    static int gamePhase; 
+    public static int gamePhase; 
 
     // Start is called before the first frame update
     void Start()
@@ -30,40 +30,54 @@ public class sceneControl : MonoBehaviour
 
     public void changeScenePhase()
     {
+
         if(gamePhase == 0)
         {
-            SceneManager.LoadScene("elevatorPush");
+            gamePhase++;
+            SceneManager.LoadScene("Pixel HB");
         }
         else if(gamePhase == 1)
         {
-            SceneManager.LoadScene("midievil castle");
+            gamePhase++;
+            SceneManager.LoadScene("midieval castle");
         }
         else if(gamePhase == 2)
         {
+            gamePhase++;
             SceneManager.LoadScene("SonyaScene");
         }
         else if(gamePhase == 3)
         {
-            SceneManager.LoadScene("elevatorPush");
+            gamePhase++;
+            SceneManager.LoadScene("Pixel HB");
         }
         else if(gamePhase == 4)
         {
+            gamePhase++;
             SceneManager.LoadScene("robot room");
         }
         else if(gamePhase == 5)
         {
+            gamePhase++;
             SceneManager.LoadScene("SonyaScene");
         }
         else if(gamePhase == 6)
         {
-            SceneManager.LoadScene("finale");
+            gamePhase++;
+            SceneManager.LoadScene("Pixel HB");
         }
 
-        gamePhase++;
+        Debug.Log(gamePhase);
     }
 
     public void changeScene(string sceneName)
     {
          SceneManager.LoadScene(sceneName);
+    }
+    
+
+    public void goToElevator(string name)
+    {
+        SceneManager.LoadScene("elevator");
     }
 }
