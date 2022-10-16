@@ -17,13 +17,13 @@ public class PlayerMovement : MonoBehaviour
     {
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        Debug.Log(horizontalMove);
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            Debug.Log(jump);
         }
 
-       
+
 
     }
 
