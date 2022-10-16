@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 {
     public int maxHealth = 100;
     int currentHealth;
+    public Transform attackPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,16 +15,15 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void takeDamage(int Damage)
     {
         currentHealth -= Damage;
+        Debug.Log(attackPoint.position.x - transform.position.x);
         if (currentHealth <= 0)
         {
             Die();
+
         }
     }
     void Die()
