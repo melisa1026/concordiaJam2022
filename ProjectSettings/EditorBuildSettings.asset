@@ -8,4 +8,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/elevator.unity
+    guid: b35a76554b88274478b7eaa66e75fd92
+  - enabled: 1
+    path: Assets/Scenes/elevatorPush.unity
+    guid: 4d8e5b28ef6fe924195c9f0b17847d4e
+  - enabled: 1
+    path: Assets/Scenes/finale.unity
+    guid: 2a7769eb788626643bd1d1d1e4599b3d
+  - enabled: 1
+    path: Assets/Scenes/fourth floor.unity
+    guid: 76c3c959a1e01a64f9713ac49d4de5d6
+  - enabled: 1
+    path: Assets/Scenes/hall fight.unity
+    guid: 33ea798655608dc468b9ecd22f29717f
+  - enabled: 1
+    path: Assets/Scenes/midieval castle.unity
+    guid: b0c8c499b958cfb4c982cdb473e70432
+  - enabled: 1
+    path: Assets/Scenes/midieval fight.unity
+    guid: 574fcbd9b39420d4c95279af8f4bb271
+  - enabled: 1
+    path: Assets/Scenes/mona lisa room.unity
+    guid: b5cbb67947594c64fa5458b7f11c403d
+  - enabled: 1
+    path: Assets/Scenes/robot fight.unity
+    guid: 125448b6c49c5164799d085c92c7ae91
+  - enabled: 1
+    path: Assets/Scenes/robot room.unity
+    guid: b06b25c1f2ebd524188525b279ede0e7
+  - enabled: 1
+    path: Assets/Scenes/SonyaScene.unity
+    guid: 8ecbca80ac36f02408dab9e1881674e5
   m_configObjects: {}
