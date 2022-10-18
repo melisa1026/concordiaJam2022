@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/SonyaScene.unity
+    guid: 8ecbca80ac36f02408dab9e1881674e5
   - enabled: 1
     path: Assets/Scenes/elevator.unity
     guid: b35a76554b88274478b7eaa66e75fd92
@@ -38,9 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/robot room.unity
     guid: b06b25c1f2ebd524188525b279ede0e7
-  - enabled: 1
-    path: Assets/Scenes/SonyaScene.unity
-    guid: 8ecbca80ac36f02408dab9e1881674e5
   - enabled: 1
     path: Assets/Scenes/pixel HB.unity
     guid: ed6dfece8f8a4ae4b944db34b468904a

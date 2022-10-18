@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     public float attackPush;
     public float attackUp   ;
     public Animator animator;
-    public float distFromPlayer;
+    public float distFromPlayer = 0;
     public float fireRate;
     
     // Start is called before the first frame update
