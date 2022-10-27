@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 254939500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9984295, y: 0.22864759, z: 2.1002421}
+  m_LocalScale: {x: 1.745667, y: 0.3997704, z: 3.6720903}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1775369058}
@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 18.999998, y: 78}
+  m_AnchoredPosition: {x: 18.999998, y: 128}
   m_SizeDelta: {x: 679.9337, y: 403.9489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254939502
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 0.20132636, g: 0.4339623, b: 0.16130295, a: 0.6039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -450,7 +450,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 254939500}
+  twoPersonTextbox1: {fileID: 0}
+  twoPersonTextbox2: {fileID: 0}
   text: {fileID: 1775369059}
+  twoPersonText1: {fileID: 0}
+  twoPersonText2: {fileID: 0}
+  twoPersonLine1: 
+  twoPersonLine2: 
 --- !u!114 &429276047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,7 +482,7 @@ GameObject:
   - component: {fileID: 826148391}
   - component: {fileID: 826148390}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: midieval character 3 button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -555,8 +561,8 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Who is\u2019t art thou!? A most peculiar moron?! //
-            Or the Great Devil hath sent me his little spawn!?"
+          m_StringArgument: "Who is\u2019t art thou!? A most peculiar moron?!\\nOr
+            the Great Devil hath sent me his little spawn!?"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &826148391
@@ -778,7 +784,7 @@ GameObject:
   - component: {fileID: 953837979}
   - component: {fileID: 953837978}
   m_Layer: 5
-  m_Name: Button
+  m_Name: midieval character 1 button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -857,7 +863,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "A most curious event hath befell us all! // In the Lord\u2019s
+          m_StringArgument: "A most curious event hath befell us all!\\nIn the Lord\u2019s
             bedchamber lieth a box most tall! "
           m_BoolArgument: 0
         m_CallState: 2
@@ -978,10 +984,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1596,7 +1602,7 @@ GameObject:
   - component: {fileID: 1823557256}
   - component: {fileID: 1823557255}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: midieval character 2 button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1675,8 +1681,8 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Who might you be? With a robe that is most absurd \u2026Mayhaps
-            you are the esteem\u2019d guest, Lord Great Wizard?"
+          m_StringArgument: Our Lord hast purchas'd a painting some time ago:\nThe
+            portrait of the Lady of House Giocondo!
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1823557256

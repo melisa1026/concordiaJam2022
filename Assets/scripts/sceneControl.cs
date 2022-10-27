@@ -67,7 +67,6 @@ public class sceneControl : MonoBehaviour
             SceneManager.LoadScene("Pixel HB");
         }
 
-        Debug.Log(gamePhase);
     }
 
     public void changeScene(string sceneName)

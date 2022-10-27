@@ -7,11 +7,9 @@ using UnityEngine.SceneManagement;
 public class doorTalk : MonoBehaviour
 {
     public Animator doorAnim;
-    
-        public GameObject textbox;
-        public Text text;
-        public GameObject door, doorShadow, annoyingDude, annoyingDudeButton, doorButton, teacher;
-        public Sprite closedDoor;
+    public GameObject door, doorShadow, annoyingDude, annoyingDudeButton, doorButton, teacher;
+    public Sprite closedDoor;
+    public talking talkingScript;
 
     public void Start()
     {
@@ -33,6 +31,8 @@ public class doorTalk : MonoBehaviour
     }
     public void animateDoor()
     {
+        talkingScript.twoPersonConversation();
+
         doorAnim.enabled = true;
     }
 
@@ -52,7 +52,7 @@ public class doorTalk : MonoBehaviour
     public void screewDoor()
     {
         closeDoor();
-        text.text = "now I'll have to screw the door // and things will be like they were before";
+        talkingScript.talk("now I'll have to screw the door\nand things will be like they were before");
     }
 
     public void annoyingGuy()
