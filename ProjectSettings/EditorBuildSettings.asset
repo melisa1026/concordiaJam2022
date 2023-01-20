@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pixel Castle.unity
     guid: 89afc95912a4e914ca01c47f078ee305
+  - enabled: 1
+    path: Assets/Scenes/kill knight.unity
+    guid: da594df50e448014dadaf181a312fa11
   m_configObjects: {}
