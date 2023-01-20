@@ -9,10 +9,10 @@ public class sceneControl : MonoBehaviour
     // phase 0: in present. will transition to teacher game
     // phase 1: teacher game. pushed in elevator. Press elevator button 1 to go to past
     // phase 2: in the past. got o game after fight. elevator back to present game
-    // phase 3: in present. transitions to teacher game
-    // phase 4: teacher game. pushed in elevator. go to future game
+    // phase 3: in present. transitions to hall
+    // phase 4: hall. pushed in elevator. go to future game
     // phase 5: in future, play game, go to mona lisa room. go back to present from elevator room
-    // phase 6: present. play game, go to door, go through door
+    // phase 6: present. go to door, go through door
     // phase 7: punch teacher in the face
     public static int gamePhase; 
 
@@ -49,7 +49,7 @@ public class sceneControl : MonoBehaviour
         else if(gamePhase == 3)
         {
             gamePhase++;
-            SceneManager.LoadScene("Pixel HB");
+            SceneManager.LoadScene("elevatorPush");
         }
         else if(gamePhase == 4)
         {
@@ -64,7 +64,7 @@ public class sceneControl : MonoBehaviour
         else if(gamePhase == 6)
         {
             gamePhase++;
-            SceneManager.LoadScene("Pixel HB");
+            SceneManager.LoadScene("elevatorPush");
         }
 
     }

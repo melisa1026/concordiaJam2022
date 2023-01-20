@@ -677,6 +677,7 @@ MonoBehaviour:
   twoPersonText2: {fileID: 0}
   twoPersonLine1: 
   twoPersonLine2: 
+  startText: I'm back in 2022\nI guess I have to start anew
 --- !u!114 &392548645
 MonoBehaviour:
   m_ObjectHideFlags: 0

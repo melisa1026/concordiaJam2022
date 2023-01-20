@@ -18,7 +18,7 @@ public class doorTalk : MonoBehaviour
             unanimateDoor();
         }
 
-        else if(sceneControl.gamePhase == 7)
+        else if(sceneControl.gamePhase == 6)
         {
             animateDoor();
             teacher.SetActive(false);
@@ -70,8 +70,14 @@ public class doorTalk : MonoBehaviour
         }
         else if(sceneControl.gamePhase == 7)
         {
-            screewDoor();
-             SceneManager.LoadScene("finale");
+            StartCoroutine(screwAndTalkToDoor());
         }
+    }
+
+    public IEnumerator screwAndTalkToDoor()
+    {
+        screewDoor();
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("finale");
     }
 }

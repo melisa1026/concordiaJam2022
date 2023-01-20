@@ -1893,6 +1893,7 @@ MonoBehaviour:
   twoPersonText2: {fileID: 1537163122}
   twoPersonLine1: 
   twoPersonLine2: 
+  startText: The future's not how I'd expect\nI thought that it would be more wrecked
 --- !u!114 &1688200536
 MonoBehaviour:
   m_ObjectHideFlags: 0

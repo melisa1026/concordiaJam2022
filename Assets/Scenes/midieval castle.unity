@@ -457,6 +457,7 @@ MonoBehaviour:
   twoPersonText2: {fileID: 0}
   twoPersonLine1: 
   twoPersonLine2: 
+  startText: Seems that I'm now in the  past\nHope that I can get back fast
 --- !u!114 &429276047
 MonoBehaviour:
   m_ObjectHideFlags: 0
